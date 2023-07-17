@@ -1,0 +1,218 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4b4741;
+}
+
+
+.body{
+    margin: 0%;
+    background-color: #FBF4E1;
+    
+}
+
+header{
+    background-color:black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    border-bottom: 9px solid white;   
+    color: white;
+}
+.contenedor{
+    padding: 50px;
+
+    
+}
+.articulos{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: left;
+    font-size:x-large;
+    background-color: #c7bdb1 !important;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    
+}   
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navegador a{
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+
+.navegador a:hover{
+    background-color: #be8b3c;
+    transition: background-color 1s ease;
+    color: #6b2404;
+    border-radius: 10px;
+    padding: 10px;
+    text-shadow: none;
+    transition: color 1s ease;
+}
+
+.boton-login{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: #823e01;
+    text-shadow: 3px 3px black;
+}
+
+.boton-login:hover{
+    background-color:#be8b3c;
+    transition: background-color 1s ease;
+    color: #6b2404;
+    text-shadow: none;
+    transition: color 1s ease;
+}
+
+
+footer{
+    background-color:black;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    border-top: 9px solid white;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.pfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-shadow: 3px 3px black;
+}
+.pfooter a{
+    text-decoration: none;
+}
+.pfooter a:hover{
+    background-color:#be8b3c;
+    transition: background-color 1s ease;
+    border-radius: 10px;
+}
+
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: gray;   
+    padding: 5px;
+    gap: 10px;
+}
+
+.logos a:hover{
+    background-color: white;
+    transition: background-color 1s ease;
+    border-radius: 15px;
+}
+
+
+.imagenes{
+    margin: 30px;
+}
+
+.titulo{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    text-size-adjust: 100%;
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+    text-align: center;
+    box-sizing: inherit;
+    font-weight: 100;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-word;
+    hyphens: none;
+    font-size: 40px;
+    background-color: #c7bdb1;
+    text-shadow: 3px 3px black;
+    
+}
+
+.subtitulo{
+    font-family:'Arial Narrow Bold', sans-serif;
+    margin-bottom: 20;
+    text-align:left;
+    margin: 25px;
+    font-size: 20px;
+}
+
+.creador{
+    text-decoration: none;
+    font-family: inherit;
+    margin-bottom: 20;
+    text-align:left;
+    margin: 25px;
+    font-size: 15px;
+}
+
+hr{
+    margin: 25px;
+}
+
+.texto1{
+    margin:50px;
+    text-align: left;
+    font-size:x-large;
+    background-color: #c7bdb1;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px black !important;
+}
+
+
+.copy{
+    text-decoration: none;
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    text-shadow: 3px 3px black;
+}
+
+.copy p{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.web{
+    color: white;
+    text-decoration: none;
+}
+
+.pfooter a{
+    color: white;
+}
+
+.pfooter a:hover{
+    color: white;
+}
+
+.carousel-item {
+    border: 2px solid white;
+}
+
+.contactus{
+    text-shadow: 2px 2px black; 
+}
+
